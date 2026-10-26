@@ -1,0 +1,4 @@
+{ "name": "blockchainiq-market-brief", "main": "src/index.js", "compatibility_date": "2025-09-01",
+  "compatibility_flags": ["nodejs_compat"],
+  "durable_objects": { "bindings": [{ "name": "MarketBriefAgent", "class_name": "MarketBriefAgent" }] },
+  "migrations": [{ "tag": "v1", "new_sqlite_classes": ["MarketBriefAgent"] }] }
